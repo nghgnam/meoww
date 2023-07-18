@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="javas.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .btn {
+            position: absolute;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            padding: 10px;
+            right: 48%;
+        }
+        
+        .btn:hover {
+            cursor: pointer;
+            background-color: #e6e6e6;
+        }
+        
+        #meow {
+            margin: 50px 48% 0;
+            position: relative;
+            border-radius: 10px;
+        }
+        
+        .btn-2 {
+            position: absolute;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            padding: 10px;
+            right: 41%;
+        }
+        
+        .btn-2:hover {
+            cursor: pointer;
+            background-color: #e6e6e6;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="./img/34f1ee0291e0cb7dcc1fdef172800cab.jpg" style="width: 140px;" alt="" id="meow">
+    <button class="btn" type="button" onclick="document.getElementById('meow').src='./img/1256000a71e6e0fbcd09c8505529889f.jpg'">Open Mouth</button>
+    <button class="btn-2" type="button" onclick="document.getElementById('meow').src='./img/34f1ee0291e0cb7dcc1fdef172800cab.jpg'">Close Mouth</button>
+
+</body>
+
+</html>
